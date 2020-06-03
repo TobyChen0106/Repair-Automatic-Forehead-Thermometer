@@ -1,4 +1,9 @@
 # 防疫一號維修工具
+## 使用說明
+![](https://i.imgur.com/FAMcAuT.png)
+![](https://i.imgur.com/xifVrne.png)
+![](https://i.imgur.com/fxeBmYc.png)
+
 ## 維修sop:
 1. RFID沒反應 => 更換一片新的RFID (更換時記得先關電)
 2. 藍牙很怪 => 更新driver => 更新作業系統(到win10) => 換一片ESP32
@@ -72,7 +77,7 @@ python esptool/esptool.py --chip esp32 --port COM11 --baud 921600 --before defau
 ![](https://i.imgur.com/osVtFt0.png)
 
 5. 選擇port
-![Uploading file..._f22mrtp06]()
+![](https://i.imgur.com/dCIlz9J.png)
 
 7. 選擇partition
 ![](https://i.imgur.com/p7ia1My.png)
