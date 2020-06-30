@@ -26,7 +26,7 @@
 - 如果esp32壞掉要換新的，需要上傳程式，用下面指令可以直接上傳bin檔，port 要改成對應的port ( --port <my_port>)
 
 ```python=
-python esptool/esptool.py --chip esp32 --port COM11 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0xe000 esptool/boot_app0.bin 0x1000 esptool/bootloader_dio_80m.bin 0x10000 esptool/esp32_LTS.ino.bin 0x8000 esptool/esp32_LTS.ino.partitions.bin 
+python esptool/esptool.py --chip esp32 --port COM11 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0xe000 esptool/boot_app0.bin 0x1000 esptool/bootloader_dio_80m.bin 0x10000 esptool/esp32_CARD.ino.bin 0x8000 esptool/esp32_LTS.ino.partitions.bin 
 ```
 
 ## 修改設定檔
