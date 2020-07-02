@@ -1,6 +1,6 @@
 {
-    "STATION_ID": 5145,
-    "STATION_NAME": "防疫一號-145",
+    "STATION_ID": 5169,
+    "STATION_NAME": "防疫一號-169",
     "STATION_AUTHOR": "NTUEE - EP Crossing Team",
     "DOMAIN_POSTFIX": ".ee.musou.toby.best",
     "WIFI_NAME": "NTU",
@@ -9,7 +9,7 @@
     "BACKUP_WIFI_PWD": "00000000",
     "TIMEOUT_RX": 200,
     "TIMEOUT_RFID": 200,
-    "PERIOD_ALIVE_REPORT": 5000,
+    "PERIOD_ALIVE_REPORT": 900000,
     "DELAY_LOW_TMP": 200,
     "DELAY_HIGH_TMP": 4000,
     "LOW_TMP": 32,
